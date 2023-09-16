@@ -1,0 +1,531 @@
+body{font-family: cursive;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOcAAACCCAMAAACKEy/7AAAAYFBMVEUCBCoBBCoAACgEBiwAACYAACoAACQCBSghIjsdHjYMDTESEzMHCSknKUYZGjgtLkklJ0EHCCMYGjQoKUAODygYGTosLUM2OFATEywXFy0xMkkKCy0dHjsODysVFjIGBiVLEFb+AAAB90lEQVR4nO2d3W6CQBgF2QX5qVK21KptFd//LbukNr3phZ6QOolnL3CByZeZkOytRZFXKH7WH7vrHukv/28YWM2d1z4qH6SzCA/S+Sjf050gNXcKPFjNnQIPVnOnwIPV3CnwYDV3CjxYzZ0CD1Zzp8CD1dwp8GA1dwo8WM2dAg9Wc6fAg9XcKfBgNXcKPFjNnQIPVnOnwIPV3CnwYDV3CjxYzZ0CD1Zzp8CD1dwp8GA1dwo8WM2dAg9Wc6fAg9XcKfBgNXcKPFjNnQIPVnOnwIPV3CnwYDV3CjxYzZ0CD1Zzp8CD1dwp8GA1dwo8WM2dAg9Wc6fAg9XcKfBgNXcKPFjNnQIPVnOnwIPV3CnwYDV3CjxYzZ0CD1Zzp8CD1dwp8GA1dwo8WM2dAg9Wc6fAg9XcKfBgNXcKPFjNnQIPVnOnwIPV3CnwYDV3CjxYzZ0CD1Zzp8CD1dwp8GA1dwo8WM2dAg9Wu31YuNzM1xB+rwC1JYeFeKnKu/m/6PJdmRdBbclhcfVUhKqqq7zWTR1iFedtBKgtOKyJm75/rtt26FOb2rZ/GdPYv/bDWN1bbeHOddq+nXf7wzAN3bDbt+m97z62afy8t9qiw0JZH4/r+jieDlNqp2k8d92h6zbT6ft1uNED2hnyudPkwyeuitg0VVzl33nNZ9MXKfYR+1KsnmwAAAAASUVORK5CYII=)}
+
+#HeaderIndex{ 
+display: flex;
+justify-content: center;
+height: 6em;}
+/*Encabezado index*/
+.CuadradoLogeo{
+    border-bottom-style: solid ;
+    border-color: black;
+    border-width:0.3em;
+    border-left-style: solid;
+    display:flex;
+    position: relative;
+    width: 90%;
+    height: 100%;}
+.Logo{
+    display: flex;
+    left: 0%;
+    position: absolute; 
+    width: 10%;
+    height: 100%;
+    bottom:0.1%;}
+.Inicio__Logeo{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+   font-family:cursive;
+   font-size: xx-large;
+   width: 100%;
+   height: 50%;}
+.Inicio__Logeo:hover{
+    opacity: 80%;
+    font-weight: 1000;
+    transition-duration: 0.3s;
+    color: gold;}
+a:link{
+    text-decoration: none;}
+a:hover{
+    color: gold;}
+/*Final encabezado index*/
+
+/*InicioDeMenu*/
+.Menu{
+    position: relative;
+    display: flex;
+    color: whitesmoke;
+    font-family: cursive;}
+.ContenedorMenu{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 3%;   
+    padding: 0%;
+    align-content: center;}
+/*FinMenu*/
+
+/*InicioPortada*/
+.ContenedorPortada{
+    border-style: solid;
+    border-width: 0.4em;
+    width: 70em;
+    height: 29.9em;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;}
+.ImagenPortada{
+    display: flex;
+    width:100%;}
+    /*FinPortada*/
+
+    /*InicioObjetivo*/
+.Cuadrado__Objetivo{
+    display: flex;
+    position: relative;
+    border-style: solid;
+    border-width: 0.2em; 
+    border-color: green;
+    width: 90%;
+    margin-left: 5%;
+    height: 20em;
+    z-index: 5;}
+.Titulo__Objetivo{
+    color: whitesmoke;
+    display: flex;
+    position: absolute;
+    margin: 0%;
+    font-size: xx-large;
+    font-family: cursive;
+    justify-content: center;
+    border-bottom-style: solid;
+    background-color:rgba(0, 0, 0, 0.575);
+    width: 100%;
+z-index: 1;}
+.Imagen__Objetivo{
+    display: flex;
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    margin-top: 1em;
+    right: 0%;
+    z-index: 0;}    
+.Descripcion__Objetivo{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    bottom: 0%;
+    padding:0%;
+    left: 0em;
+    width: 50%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.575);
+    border: solid;
+    border-color:green;   
+    border-left-width: 0em;
+    color: whitesmoke;}
+/*FinDeObjetivo*/
+
+/*Seccion Cursos*/
+h3{
+    width: auto;
+    height: 100%;}
+.Caja{
+    border: solid black 0.3em;
+    display: grid;
+    margin: 2%;
+    width: auto;
+    height: auto;}
+.GridLayout{
+    border: solid black 0.3em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row: auto auto auto auto;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 139, 0.397);
+    margin: 2% auto;}
+#mainindex p{
+    color: whitesmoke;
+    font-size:larger;
+    font-family: cursive;}
+#mainindex div a:link {
+    text-decoration: none;}
+#mainindex img{
+    width: 100%;
+    height: 80%;}
+/*Fin Seccion Cursos*/
+/*InicioRS*/
+#h4index{display: grid;
+color: whitesmoke;}
+#h4index .ContenedorRS{
+    color: whitesmoke;
+    display: grid;
+    position: relative;
+    background-color: rgba(0, 255, 255, 0.048);
+    grid-template-columns:auto auto ;
+    grid-template-rows: auto;
+    justify-content:start;
+    grid-row: auto ;
+    height: 100%;}
+#RS{
+    color: whitesmoke;
+    font-family: cursive;
+    margin-left: 2%;
+    margin-right: 2%;}
+#h4index .Bloque{
+    background-color: whitesmoke;
+    width: 100%;
+    display: grid;}
+#h4index img{
+    display: grid;
+    width: 3em;
+    height: 3em;}
+#h4index .FotoYT{
+    border: solid red;}
+#h4index .FotoInsta{
+    border: solid blueviolet;}
+/*FinRS*/
+/*WebDeLogeo*/
+.CuadroDeRegistro{
+    width: 400px;
+    height: 100%;
+    background: #012c57;
+    padding: 30px;
+    margin: auto;
+    margin-top:50px;
+    border:solid 0.2em whitesmoke ;
+    border-radius: 5%;
+    font-family: cursive;
+    box-shadow: 5px 20px 50px #000;
+    color: whitesmoke;}
+
+.Controls {
+    color: whitesmoke;
+    width: 100%;
+    background-color: #012c57;
+    border: solid 3px blue;
+    padding: 10px;
+    margin-bottom: 5%;
+    font-size: small;}
+.CuadroDeRegistro p{
+    height:4em;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    line-height: 4em;}
+.CuadroDeRegistro a:hover{
+    color:gold;
+text-decoration: underline;}
+.CuadroDeRegistro a{
+    color: whitesmoke;
+    text-decoration: none;}
+.CuadroDeRegistro .Botons{
+    width: 100%;
+    background: blue;
+    border: none;
+    padding: 10px;
+    color: whitesmoke;
+    margin: 5%;
+    margin-left: 0%;
+    font-size:large;}
+#PortadaEnLogeo{
+    position: relative;
+    right: auto;
+    left: auto;
+    width: 95%;
+    height: 100%;}
+#HeaderLogeo{
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    margin-top: 2%;}
+    /*FinRegistroWeb*/
+
+    /*MisCursos*/
+.MenuMC{
+        display: flex;
+        color: whitesmoke;
+        font-family: cursive;}
+.ContenedorMenuMC{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin-top: 3%;   
+        padding: 0%;
+        align-content: center;}
+#ContenedorMenuMC{
+        width: auto;
+        height: 100%;}
+#DescripcionMC{
+    text-align: center;}
+.CajaMC{
+        border: solid black 0.3em;
+        display: grid;
+        border: solid black ;
+        margin: 2%;
+        width: 150px;
+        z-index: 10;
+        height: 150px;}
+.GridLayoutMisCursos{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-row: auto auto auto auto;
+        justify-content: space-around;
+        width: 100%;
+        background-color: rgba(0, 255, 255, 0.342);
+        margin: 2% auto;}
+#h1MC{color: white;}
+#ContenedorMenuMC img{
+        width: 100%;
+        height: 100%;}
+    /*FinMisCursos*/
+    
+    /*Mercado bursatil*/
+#h2MB{display: flex;
+    margin-top: 2%;}
+#h2MB #TituloMB{
+    font-family: cursive;
+    display: flex;
+    text-decoration: underline;
+    width: 100%;
+    color: whitesmoke;
+    font-size: larger;
+    position: absolute;
+    margin-left: 1%;}
+#h2MB #DescripcionMB{
+    margin: 4%;
+    color: whitesmoke;
+    display: flex;
+    position: absolute;
+    font-size: xx-large;
+    justify-content: space-around;}
+#h3Temario{
+    color: whitesmoke;
+    display: grid;
+    position: relative;
+    margin-top: 32%; }
+#h3Temario #TituloTemario{
+    position: absolute;
+    font-size: larger;
+    text-decoration: underline;
+    font-family: cursive;
+    margin: 1%;}
+#h3Temario article{
+    display: grid;
+    position: absolute;
+    width: 90%;
+    padding: 1%;
+    margin: 5%;}
+#h3Temario article li{
+    background-color: rgba(128, 128, 128, 0.466);
+    border: solid black 0.2em;
+    border-top: none;
+    border-left:none;}
+#FooterMB #Compra {
+    display: flex;
+    position: relative;
+    margin-top: 22%;
+    padding: 2%;
+    justify-content: center;
+    color: whitesmoke;
+text-decoration: underline;}
+#FooterMB a:hover{
+    color: gold;}
+/*FinMB*/
+/*compras de cursos*/
+#HeaderMB{ display: flex;
+    justify-content: center;
+    height: 6em;}
+.CuadradoLogeoMB{
+        border-bottom-style: solid ;
+        border-color: black;
+        border-width:0.3em;
+        border-left-style: solid;
+        display:flex;
+        position: relative; 
+        align-content: center;
+        width: 90%;
+        height: 100%;}
+.LogoMB{
+        display: flex;
+        left: 0%;
+        position: absolute; 
+        width: 10%;
+        height: 100%;
+        bottom:0.1%;}    
+#h1Compra{display: grid;
+    position: relative;
+    margin: 1%;
+    width: 100%;;}
+#h1Compra .ContenedorMB{
+    display: grid;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 0%; 
+    margin: 1%;
+margin-left: 3%;}
+#h1Compra p{border: groove black 0.2em;
+    margin: 0%;
+    width: 50%;
+    margin-right: auto;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: cursive;
+    background-color: rgba(128, 128, 128, 0.719);
+    font-size: xx-large;}
+#h1Compra img{
+    margin: 0%;
+    display: grid;
+    width: 50%;
+    height: 100%;
+    border: solid 0.1em;
+    border-top: none;}
+.precioMB{
+    font-family: cursive;
+    font-weight: bolder;}
+#h2Compra{ display: grid;
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 5%;
+    left: 5%;
+    justify-content: center; }
+.ControlsMB {
+            color: whitesmoke;
+            width: 95%;
+            background-color: #012c57;
+            border: solid 3px blue;
+            padding: 10px;
+            margin-bottom: 2%;
+            font-size: small;}
+.CuadroCompraMB{
+    display: grid;
+    position: absolute;
+    background-color: #012c57;
+    border-radius: 2%;
+    border: solid white 0.2em;
+    width: 80%;}
+.CuadroCompraMB a:hover{
+            color:gold;}
+.CuadroCompraMB a:link{
+            color: whitesmoke;}
+.CuadroCompraMB .TM{
+    color: whitesmoke;
+    font-size: medium;
+    text-align: center;}
+.CuadroCompraMB .BotonsMB{
+width: 100%;
+background: blue;
+border: none;
+padding: 10px;
+width: 100%;
+color: whitesmoke;
+margin: 3%;
+margin-left: auto;
+margin-right: auto;
+font-size:large;}
+
+
+/*InicioProductividad*/
+#h2Pro{display: flex;
+    margin-top: 2%;}
+#h2Pro #TituloPro{
+    font-family: cursive;
+    display: flex;
+    text-decoration: underline;
+    width: 100%;
+    color: whitesmoke;
+    font-size: larger;
+    position: absolute;
+    margin-left: 1%;}
+#h2Pro #DescripcionPro{
+    margin: 4%;
+    color: whitesmoke;
+    display: flex;
+    position: absolute;
+    font-size: xx-large;
+    justify-content: space-around;}
+#h3Temario{
+    color: whitesmoke;
+    display: grid;
+    position: relative;
+    margin-top: 32%; }
+#h3Temario #TituloTemario{
+    position: absolute;
+    font-size: larger;
+    text-decoration: underline;
+    font-family: cursive;
+    margin: 1%;}
+#h3Temario article{
+    display: grid;
+    position: absolute;
+    width: 90%;
+    padding: 1%;
+    margin: 5%;}
+#h3Temario article li{
+    background-color: rgba(128, 128, 128, 0.466);
+    border: solid black 0.2em;
+    border-top: none;
+    border-left:none;}
+#FooterPro #Compra {
+    display: flex;
+    position: relative;
+    margin-top: 22%;
+    padding: 2%;
+    justify-content: center;
+    color: whitesmoke;
+text-decoration: underline;}
+#FooterPro a:hover{
+    color: gold;}
+/*FinProductividad*/
+
+/*Inicio Trading*/
+#h2TR{display: flex;
+    margin-top: 2%;}
+#h2TR #TituloTR{
+    font-family: cursive;
+    display: flex;
+    text-decoration: underline;
+    width: 100%;
+    color: whitesmoke;
+    font-size: larger;
+    position: absolute;
+    margin-left: 1%;}
+#h2TR #DescripcionTR{
+    margin: 4%;
+    color: whitesmoke;
+    display: flex;
+    position: absolute;
+    font-size: xx-large;
+    justify-content: space-around;}
+#h3Temario{
+    color: whitesmoke;
+    display: grid;
+    position: relative;
+    margin-top: 32%; }
+#h3Temario #TituloTemario{
+    position: absolute;
+    font-size: larger;
+    text-decoration: underline;
+    font-family: cursive;
+    margin: 1%;}
+#h3Temario article{
+    display: grid;
+    position: absolute;
+    width: 90%;
+    padding: 1%;
+    margin: 5%;}
+#h3Temario article li{
+    background-color: rgba(128, 128, 128, 0.466);
+    border: solid black 0.2em;
+    border-top: none;
+    border-left:none;}
+#FooterTR #Compra {
+    display: flex;
+    position: relative;
+    margin-top: 22%;
+    padding: 2%;
+    justify-content: center;
+    color: whitesmoke;
+text-decoration: underline;}
+#FooterTR a:hover{
+    color: gold;}
+/*FinTrding*/
