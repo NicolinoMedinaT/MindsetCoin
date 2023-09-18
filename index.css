@@ -30,6 +30,7 @@ height: 6em;}
    font-family:cursive;
    font-size: xx-large;
    width: 100%;
+   margin-top: 0.5em;
    height: 50%;}
 .Inicio__Logeo:hover{
     opacity: 80%;
@@ -40,6 +41,31 @@ a:link{
     text-decoration: none;}
 a:hover{
     color: gold;}
+@media  (max-width:600px){
+  #HeaderIndex{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 90%;
+    height: 3em;}
+  .CuadradoLogeo{
+    margin-left: auto;
+    justify-content: center;
+    margin: 1%;
+    right: 0%;
+    margin-right: 0%;
+    border: none;}
+  .Logo{
+    margin-left: 0%;
+    width: 4em;
+    height: 4em;}
+  .Inicio__Logeo{
+    font-size:small;
+    bottom: 0%;
+    left: 0%;
+    top: 0%;}}
+
 /*Final encabezado index*/
 
 /*InicioDeMenu*/
@@ -55,10 +81,20 @@ a:hover{
     margin-top: 3%;   
     padding: 0%;
     align-content: center;}
+@media (max-width:600px){
+    .ContenedorMenu{
+        justify-content:center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: small;
+    width: 100%}
+   .Menu{
+    margin: 0.9em;
+   }}
 /*FinMenu*/
 
 /*InicioPortada*/
-.ContenedorPortada{
+.ContenedorPortada {
     border-style: solid;
     border-width: 0.4em;
     width: 70em;
@@ -71,6 +107,13 @@ a:hover{
 .ImagenPortada{
     display: flex;
     width:100%;}
+@media (max-width:600px){
+    .ContenedorPortada{
+        justify-content: center;
+       margin-left: auto;
+       margin-right: auto;
+        width: 100%;
+        height: 60%;}}
     /*FinPortada*/
 
     /*InicioObjetivo*/
@@ -118,6 +161,34 @@ z-index: 1;}
     border-color:green;   
     border-left-width: 0em;
     color: whitesmoke;}
+@media (max-width:600px){
+.Imagen__Objetivo{
+    width: 100%;
+    height: 90%;
+    left: 0%;}
+.Cuadrado__Objetivo{
+    width: 100%;
+    height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;}
+.Descripcion__Objetivo{
+    justify-content: start;
+    align-content: flex-start;
+    font-size: x-small;
+    height: 14em;
+    top: 20%;}
+.Titulo__Objetivo{
+    width: 100%;
+    font-size: medium;
+}}
+@media (max-width:400px){
+    .Descripcion__Objetivo{
+        justify-content: start;
+        align-content: flex-start;
+        font-size: xx-small;
+        height: 14em;
+        top: 20%;}}
 /*FinDeObjetivo*/
 
 /*Seccion Cursos*/
@@ -150,6 +221,24 @@ h3{
 #mainindex img{
     width: 100%;
     height: 80%;}
+@media (max-width:600px){
+    .GridLayout{width: 13em;
+    margin-left: auto;
+    margin-right: auto;
+grid-template-columns: auto;}
+#mainindex img{
+    width: 100%;
+    height: 50%;
+margin-left: auto;
+margin-right: auto;}
+.Caja{  
+margin-left: auto;
+margin-right: auto;
+    width: 100%;
+    height: 70%;
+    margin-left: 0%;
+    top: 0%;
+    margin-top: 0%;}}
 /*Fin Seccion Cursos*/
 /*InicioRS*/
 #h4index{display: grid;
@@ -158,12 +247,11 @@ color: whitesmoke;}
     color: whitesmoke;
     display: grid;
     position: relative;
-    background-color: rgba(0, 255, 255, 0.048);
     grid-template-columns:auto auto ;
     grid-template-rows: auto;
     justify-content:start;
     grid-row: auto ;
-    height: 100%;}
+    }
 #RS{
     color: whitesmoke;
     font-family: cursive;
@@ -181,10 +269,13 @@ color: whitesmoke;}
     border: solid red;}
 #h4index .FotoInsta{
     border: solid blueviolet;}
+@media (max-width:600px;){
+#h4index .ContenedorRS{
+    width: 1em;}}
 /*FinRS*/
 /*WebDeLogeo*/
 .CuadroDeRegistro{
-    width: 400px;
+    width: 30em;
     height: 100%;
     background: #012c57;
     padding: 30px;
@@ -236,6 +327,21 @@ text-decoration: underline;}
     justify-content: center;
     height: 25%;
     margin-top: 2%;}
+@media (max-width:600px){
+#PortadaEnLogeo{ 
+    position: relative;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 2%;
+    width: 90%;}
+.CuadroDeRegistro{
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;}
+.Controls{
+    font-size: x-small;}
+.CuadroDeRegistro p{
+    font-size: x-small;}}
     /*FinRegistroWeb*/
 
     /*MisCursos*/
@@ -275,6 +381,18 @@ text-decoration: underline;}
 #ContenedorMenuMC img{
         width: 100%;
         height: 100%;}
+@media (max-width:600px){
+#DescripcionMC{
+    font-size: small;}
+.MenuMC{
+    font-size: medium;}
+.GridLayoutMisCursos{
+    display: grid;
+    grid-template-columns: auto;}
+#ContenedorMenuMC{
+    width: 8em;
+    margin-left: auto;
+    margin-right: auto;}}
     /*FinMisCursos*/
     
     /*Mercado bursatil*/
@@ -328,7 +446,23 @@ text-decoration: underline;}
 text-decoration: underline;}
 #FooterMB a:hover{
     color: gold;}
-/*FinMB*/
+@media (max-width:600px){
+    #h2MB #TituloMB{
+                font-size: large;}
+    #h2MB #DescripcionMB{
+                margin: 6%;
+                font-size: medium;}
+    #h3Temario #TituloTemario{
+                top: 3.5em;
+                    font-size: medium;}
+    #h3Temario article{
+                font-size: small;
+                top: 10em;}
+    #h3Temario article li{
+                font-size: medium;}
+    #FooterMB #Compra{
+                top: 8em;}}
+    /*FinMB*/
 /*compras de cursos*/
 #HeaderMB{ display: flex;
     justify-content: center;
@@ -422,6 +556,32 @@ margin: 3%;
 margin-left: auto;
 margin-right: auto;
 font-size:large;}
+@media (max-width:600px){
+#HeaderMB{
+        display:none;}
+#HeaderMB .CuadradoLogeoMB{
+    border: none;}
+#h1Compra{
+    justify-content: center;    }
+#h1Compra .ContenedorMB{
+        width: 32em;
+        height: 400px;
+        margin-right: 2%;
+        margin-left: 5%;
+        margin-top: 5%;}
+#h1Compra .ContenedorMB p{
+    font-size: large;}
+#h1Compra .ContenedorMB img{}       
+#h2Compra {
+    margin-left: 4.5%;
+    display: block;
+    top: 17em;
+    width: 100%;}
+.ControlsMB{
+    font-size: x-small;}
+.CuadroCompraMB .TM{
+    font-size: small;
+    margin-top: 3%;}}
 
 
 /*InicioProductividad*/
@@ -475,8 +635,50 @@ font-size:large;}
 text-decoration: underline;}
 #FooterPro a:hover{
     color: gold;}
+@media (max-width:600px){
+    @media (max-width:600px){
+#h2Pro #TituloPro{
+            font-size: large;}
+#h2Pro #DescripcionPro{
+            margin: 6%;
+            font-size: medium;}
+#h3Temario #TituloTemario{
+            top: 3.5em;
+                font-size: medium;}
+#h3Temario article{
+            font-size: small;
+            top: 10em;}
+#h3Temario article li{
+            font-size: medium;}
+#FooterPro #Compra{
+            top: 8em;}}}
 /*FinProductividad*/
-
+/*CompraPro*/
+@media (max-width:600px){
+#HeaderPro{
+            display:none;}
+#HeaderPro .CuadradoLogeoPro{
+        border: none;}
+#h1Compra{
+        justify-content: center;    }
+#h1Compra .ContenedorPro{
+        width: 32em;
+        height: 400px;
+        margin-top: 5%;}
+#h1Compra .ContenedorPro p{
+        font-size: large;}
+#h1Compra .ContenedorPro img{}       
+#h2Compra {
+        margin-left: 4.5%;
+        display: block;
+        top: 21em;
+        width: 100%;}
+.ControlsPro{
+        font-size: x-small;}
+.CuadroCompraPro .TM{
+        font-size: small;
+        margin-top: 3%;}}
+    
 /*Inicio Trading*/
 #h2TR{display: flex;
     margin-top: 2%;}
@@ -506,13 +708,13 @@ text-decoration: underline;}
     font-size: larger;
     text-decoration: underline;
     font-family: cursive;
-    margin: 1%;}
+    margin: 4%;}
 #h3Temario article{
     display: grid;
     position: absolute;
     width: 90%;
     padding: 1%;
-    margin: 5%;}
+    margin: 8%;}
 #h3Temario article li{
     background-color: rgba(128, 128, 128, 0.466);
     border: solid black 0.2em;
@@ -521,11 +723,53 @@ text-decoration: underline;}
 #FooterTR #Compra {
     display: flex;
     position: relative;
-    margin-top: 22%;
+    margin-top: 25%;
     padding: 2%;
     justify-content: center;
     color: whitesmoke;
 text-decoration: underline;}
 #FooterTR a:hover{
     color: gold;}
+@media (max-width:600px){    
+    #h2TR #TituloTR{
+                font-size: large;}
+    #h2TR #DescripcionTR{
+                margin: 6%;
+                font-size: medium;}
+    #h3Temario #TituloTemario{
+                top: 3.5em;
+                    font-size: medium;}
+    #h3Temario article{
+                font-size: small;
+                top: 10em;}
+    #h3Temario article li{
+                font-size: medium;}
+    #FooterTR #Compra{
+                top: 8em;}}
 /*FinTrding*/
+/*CompraTR*/
+@media (max-width:600px){
+#HeaderTR{
+            display:none;}
+#HeaderTR .CuadradoLogeoPro{
+        border: none;}
+#h1Compra{
+        justify-content: center;    }
+#h1Compra .ContenedorPro{
+        width: 32em;
+        height: 400px;
+        margin-top: 5%;}
+#h1Compra .ContenedorTR p{
+        font-size: large;}
+#h1Compra .ContenedorTR img{}       
+#h2Compra {
+        margin-left: 4.5%;
+        display: block;
+        top: 17em;
+        width: 100%;}
+.ControlsTR{
+        font-size: x-small;}
+.CuadroCompraTR .TM{
+        font-size: small;
+        margin-top: 3%;}}
+/*FinCompraTR*/
