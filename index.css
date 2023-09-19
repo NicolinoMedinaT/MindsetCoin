@@ -269,7 +269,7 @@ color: whitesmoke;}
     border: solid red;}
 #h4index .FotoInsta{
     border: solid blueviolet;}
-@media (max-width:600px;){
+@media (max-width:600px){
 #h4index .ContenedorRS{
     width: 1em;}}
 /*FinRS*/
@@ -570,8 +570,7 @@ font-size:large;}
         margin-left: 5%;
         margin-top: 5%;}
 #h1Compra .ContenedorMB p{
-    font-size: large;}
-#h1Compra .ContenedorMB img{}       
+    font-size: large;}       
 #h2Compra {
     margin-left: 4.5%;
     display: block;
@@ -582,8 +581,6 @@ font-size:large;}
 .CuadroCompraMB .TM{
     font-size: small;
     margin-top: 3%;}}
-
-
 /*InicioProductividad*/
 #h2Pro{display: flex;
     margin-top: 2%;}
@@ -636,7 +633,6 @@ text-decoration: underline;}
 #FooterPro a:hover{
     color: gold;}
 @media (max-width:600px){
-    @media (max-width:600px){
 #h2Pro #TituloPro{
             font-size: large;}
 #h2Pro #DescripcionPro{
@@ -654,30 +650,124 @@ text-decoration: underline;}
             top: 8em;}}}
 /*FinProductividad*/
 /*CompraPro*/
-@media (max-width:600px){
-#HeaderPro{
-            display:none;}
-#HeaderPro .CuadradoLogeoPro{
-        border: none;}
-#h1Compra{
-        justify-content: center;    }
+#HeaderPro{ display: flex;
+    justify-content: center;
+    height: 6em;}
+.CuadradoLogeoPro{
+        border-bottom-style: solid ;
+        border-color: black;
+        border-width:0.3em;
+        border-left-style: solid;
+        display:flex;
+        position: relative; 
+        align-content: center;
+        width: 90%;
+        height: 100%;}
+.LogoPro{
+        display: flex;
+        left: 0%;
+        position: absolute; 
+        width: 10%;
+        height: 100%;
+        bottom:0.1%;}    
+#h1Compra{display: grid;
+    position: relative;
+    margin: 1%;
+    width: 100%;;}
 #h1Compra .ContenedorPro{
+    display: grid;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 0%; 
+    margin: 1%;
+margin-left: 3%;}
+#h1Compra p{border: groove black 0.2em;
+    margin: 0%;
+    width: 50%;
+    margin-right: auto;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: cursive;
+    background-color: rgba(128, 128, 128, 0.719);
+    font-size: xx-large;}
+#h1Compra img{
+    margin: 0%;
+    display: grid;
+    width: 50%;
+    height: 100%;
+    border: solid 0.1em;
+    border-top: none;}
+.precioPro{
+    font-family: cursive;
+    font-weight: bolder;}
+#h2Compra{ display: grid;
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 5%;
+    left: 5%;
+    justify-content: center; }
+.ControlsPro {
+            color: whitesmoke;
+            width: 95%;
+            background-color: #012c57;
+            border: solid 3px blue;
+            padding: 10px;
+            margin-bottom: 2%;
+            font-size: small;}
+.CuadroCompraPro{
+    top: 7em;
+    display: grid;
+    position: absolute;
+    background-color: #012c57;
+    border-radius: 2%;
+    border: solid white 0.2em;
+    width: 80%;}
+.CuadroCompraPro a:hover{
+            color:gold;}
+.CuadroCompraPro a:link{
+            color: whitesmoke;}
+.CuadroCompraPro .TM{
+    color: whitesmoke;
+    font-size: medium;
+    text-align: center;}
+.CuadroCompraPro .BotonsPro{
+width: 100%;
+background: blue;
+border: none;
+padding: 10px;
+width: 100%;
+color: whitesmoke;
+margin: 3%;
+margin-left: auto;
+margin-right: auto;
+font-size:large;}
+@media (max-width:600px){
+#HeaderMB{
+        display:none;}
+#HeaderMB .CuadradoLogeoMB{
+    border: none;}
+#h1Compra{
+    justify-content: center;    }
+#h1Compra .ContenedorMB{
         width: 32em;
         height: 400px;
+        margin-right: 2%;
+        margin-left: 5%;
         margin-top: 5%;}
-#h1Compra .ContenedorPro p{
-        font-size: large;}
-#h1Compra .ContenedorPro img{}       
+#h1Compra .ContenedorMB p{
+    font-size: large;}       
 #h2Compra {
-        margin-left: 4.5%;
-        display: block;
-        top: 21em;
-        width: 100%;}
-.ControlsPro{
-        font-size: x-small;}
-.CuadroCompraPro .TM{
-        font-size: small;
-        margin-top: 3%;}}
+    margin-left: 4.5%;
+    display: block;
+    top: 17em;
+    width: 100%;}
+.ControlsMB{
+    font-size: x-small;}
+.CuadroCompraMB .TM{
+    font-size: small;
+    margin-top: 3%;}}
     
 /*Inicio Trading*/
 #h2TR{display: flex;
@@ -761,7 +851,6 @@ text-decoration: underline;}
         margin-top: 5%;}
 #h1Compra .ContenedorTR p{
         font-size: large;}
-#h1Compra .ContenedorTR img{}       
 #h2Compra {
         margin-left: 4.5%;
         display: block;
@@ -773,3 +862,121 @@ text-decoration: underline;}
         font-size: small;
         margin-top: 3%;}}
 /*FinCompraTR*/
+/*CompraHabitos*/
+#HeaderHT{ display: flex;
+    justify-content: center;
+    height: 6em;}
+.CuadradoLogeoHT{
+        border-bottom-style: solid ;
+        border-color: black;
+        border-width:0.3em;
+        border-left-style: solid;
+        display:flex;
+        position: relative; 
+        align-content: center;
+        width: 90%;
+        height: 100%;}
+.LogoHT{
+        display: flex;
+        left: 0%;
+        position: absolute; 
+        width: 10%;
+        height: 100%;
+        bottom:0.1%;}    
+#h1Compra{display: grid;
+    position: relative;
+    margin: 1%;
+    width: 100%;;}
+#h1Compra .ContenedorHT{
+    display: grid;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 0%; 
+    margin: 1%;
+margin-left: 3%;}
+#h1Compra p{border: groove black 0.2em;
+    margin: 0%;
+    width: 50%;
+    margin-right: auto;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: cursive;
+    background-color: rgba(128, 128, 128, 0.719);
+    font-size: xx-large;}
+#h1Compra img{
+    margin: 0%;
+    display: grid;
+    width: 50%;
+    height: 100%;
+    border: solid 0.1em;
+    border-top: none;}
+.precioHT{
+    font-family: cursive;
+    font-weight: bolder;}
+#h2Compra{ display: grid;
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 5%;
+    left: 5%;
+    justify-content: center; }
+.ControlsHT {
+            color: whitesmoke;
+            width: 95%;
+            background-color: #012c57;
+            border: solid 3px blue;
+            padding: 10px;
+            margin-bottom: 2%;
+            font-size: small;}
+.CuadroCompraHT{
+    display: grid;
+    position: absolute;
+    background-color: #012c57;
+    border-radius: 2%;
+    border: solid white 0.2em;
+    width: 80%;}
+.CuadroCompraHT a:hover{
+            color:gold;}
+.CuadroCompraHT a:link{
+            color: whitesmoke;}
+.CuadroCompraHT .TM{
+    color: whitesmoke;
+    font-size: medium;
+    text-align: center;}
+.CuadroCompraHT .BotonsHT{
+width: 100%;
+background: blue;
+border: none;
+padding: 10px;
+width: 100%;
+color: whitesmoke;
+margin: 3%;
+margin-left: auto;
+margin-right: auto;
+font-size:large;}
+@media (max-width:600px){
+#HeaderHT{
+        display:none;}
+#HeaderHT .CuadradoLogeoHT{
+    border: none;}
+#h1Compra{
+    justify-content: center;    }
+#h1Compra .ContenedorHT{
+        width: 32em;
+        height: 400px;
+        margin-right: 2%;
+        margin-left: 5%;
+        margin-top: 5%;}
+#h1Compra .ContenedorHT p{
+    font-size: large;}       
+#h2Compra {
+    margin-left: 4.5%;
+    display: block;
+    top: 17em;
+    width: 100%;}
+.ControlsHT{
+    font-size: x-small;}
+.CuadroCompraHT .TM{
+    font-size: small;
+    margin-top: 3%;}}
